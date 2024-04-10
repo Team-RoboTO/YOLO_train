@@ -1,0 +1,13 @@
+name: roboto
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - cpuonly
+  - pytorch
+  - torchaudio
+  - torchvision
+  - conda-forge::tqdm
+  - anaconda::ipykernel
+  - anaconda::ipywidgets
+  - anaconda::scikit-learn
