@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['blue_armor', 'grey_armor', 'purple_armor', 'red_armor', 'robot']
+
+roboflow:
+  workspace: ilchrees-zybmy
+  project: gigadataset_team_v2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ilchrees-zybmy/gigadataset_team_v2/dataset/3
